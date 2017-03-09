@@ -19,6 +19,9 @@ class solution{
 			stack<int> s;
 			for(int i=0,j=0;i<pushV.size();i++){
 				s.push(pushV[i]);
+				//以下while循环的判断中注意先判断对popV的访问有没有越界，然
+				//后再判断栈顶元素和popV[j]是否相等，如果反过来可能出现数组
+				//越界的非法访问
 				while(j<popV.size()&&s.top()==popV[j]){
 					s.pop();
 					j++;
