@@ -1,6 +1,8 @@
 /*
  * 题：求1+2+...+n，要求不能使用乘除法、for、while、if、else、switch、case等
  * 关键字及条件判断语句（A？B：C）
+ *
+ * 一提交发现自己读题不慎，不能用while，所以我的方法不合题意(大雾
  */
 class solution{
 	public:
