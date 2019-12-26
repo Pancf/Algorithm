@@ -22,6 +22,7 @@
 		6A9440E723AE4C890048F06E /* Solution94.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440E523AE4C890048F06E /* Solution94.cpp */; };
 		6A9440EA23AE4E940048F06E /* Solution145.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440E823AE4E940048F06E /* Solution145.cpp */; };
 		6A9440ED23B0D8E30048F06E /* Solution102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440EB23B0D8E30048F06E /* Solution102.cpp */; };
+		6A9440F023B0E7B00048F06E /* Solution5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440EE23B0E7B00048F06E /* Solution5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,8 @@
 		6A9440E923AE4E940048F06E /* Solution145.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution145.hpp; sourceTree = "<group>"; };
 		6A9440EB23B0D8E30048F06E /* Solution102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution102.cpp; sourceTree = "<group>"; };
 		6A9440EC23B0D8E30048F06E /* Solution102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution102.hpp; sourceTree = "<group>"; };
+		6A9440EE23B0E7B00048F06E /* Solution5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution5.cpp; sourceTree = "<group>"; };
+		6A9440EF23B0E7B00048F06E /* Solution5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution5.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4875DC238A050C00EA0245 /* main.cpp */,
+				6A9440EE23B0E7B00048F06E /* Solution5.cpp */,
+				6A9440EF23B0E7B00048F06E /* Solution5.hpp */,
 				6A9440EB23B0D8E30048F06E /* Solution102.cpp */,
 				6A9440EC23B0D8E30048F06E /* Solution102.hpp */,
 				6A9440E823AE4E940048F06E /* Solution145.cpp */,
@@ -189,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9440F023B0E7B00048F06E /* Solution5.cpp in Sources */,
 				6A4875EE23968F4600EA0245 /* Solution17.cpp in Sources */,
 				6A9440E123AE327F0048F06E /* Solution160.cpp in Sources */,
 				6A9440E423AE475E0048F06E /* Solution144.cpp in Sources */,
