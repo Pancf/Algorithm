@@ -26,6 +26,7 @@ class Solution98 {
  Memory Usage: 21.7 MB, less than 5.21% of C++ online submissions for Validate Binary Search Tree.
  思路：如果是二叉搜索出，按中序遍历得到的结果应该是一个递增序列。使用一个vector<int>保存中序遍历的结果，插入之前判断
  当前遍历结点是否符合递增要求（只需要判断当前结点的值是否大于vector.back），满足要求则插入，不满足则early return false。
+ 迭代解法可以模仿94题，增加一个指针指向前一个pop掉的结点，往后每次pop前判断一下即将pop的结点是否大于前一个。
  */
 public:
     struct TreeNode {
