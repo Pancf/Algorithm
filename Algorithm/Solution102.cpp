@@ -17,7 +17,6 @@ vector<vector<int>> Solution102::levelOrder(TreeNode *root) {
         return rv;
     }
     queue<TreeNode *> q;
-    TreeNode sentinel(-1);
     q.push(root);
     while (!q.empty()) {
         size_t level_size = q.size();
