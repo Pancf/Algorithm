@@ -27,6 +27,7 @@
 		6A9440F623B85B8B0048F06E /* Solution101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440F423B85B8B0048F06E /* Solution101.cpp */; };
 		6A9440F923B8612D0048F06E /* Solution2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440F723B8612D0048F06E /* Solution2.cpp */; };
 		6A9440FC23C0C1050048F06E /* Solution7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440FA23C0C1050048F06E /* Solution7.cpp */; };
+		6A9440FF23C18AC30048F06E /* Solution6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9440FD23C18AC30048F06E /* Solution6.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +83,8 @@
 		6A9440F823B8612D0048F06E /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
 		6A9440FA23C0C1050048F06E /* Solution7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution7.cpp; sourceTree = "<group>"; };
 		6A9440FB23C0C1050048F06E /* Solution7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution7.hpp; sourceTree = "<group>"; };
+		6A9440FD23C18AC30048F06E /* Solution6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution6.cpp; sourceTree = "<group>"; };
+		6A9440FE23C18AC30048F06E /* Solution6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution6.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4875DC238A050C00EA0245 /* main.cpp */,
+				6A9440FD23C18AC30048F06E /* Solution6.cpp */,
+				6A9440FE23C18AC30048F06E /* Solution6.hpp */,
 				6A9440FA23C0C1050048F06E /* Solution7.cpp */,
 				6A9440FB23C0C1050048F06E /* Solution7.hpp */,
 				6A9440F423B85B8B0048F06E /* Solution101.cpp */,
@@ -214,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9440FF23C18AC30048F06E /* Solution6.cpp in Sources */,
 				6A9440F023B0E7B00048F06E /* Solution5.cpp in Sources */,
 				6A4875EE23968F4600EA0245 /* Solution17.cpp in Sources */,
 				6A9440F923B8612D0048F06E /* Solution2.cpp in Sources */,
