@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A40C12C24D9832A008D0BD5 /* Solution1202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A40C12A24D98329008D0BD5 /* Solution1202.cpp */; };
 		6A4875DD238A050C00EA0245 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A4875DC238A050C00EA0245 /* main.cpp */; };
 		6A4875E5238A951900EA0245 /* Solution4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A4875E3238A951900EA0245 /* Solution4.cpp */; };
 		6A4875E8238AB91C00EA0245 /* Solution26.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A4875E6238AB91C00EA0245 /* Solution26.cpp */; };
@@ -47,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A40C12A24D98329008D0BD5 /* Solution1202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1202.cpp; sourceTree = "<group>"; };
+		6A40C12B24D9832A008D0BD5 /* Solution1202.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1202.hpp; sourceTree = "<group>"; };
 		6A4875D9238A050C00EA0245 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4875DC238A050C00EA0245 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6A4875E3238A951900EA0245 /* Solution4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution4.cpp; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4875DC238A050C00EA0245 /* main.cpp */,
+				6A40C12A24D98329008D0BD5 /* Solution1202.cpp */,
+				6A40C12B24D9832A008D0BD5 /* Solution1202.hpp */,
 				6A94410923C36A800048F06E /* Solution11.cpp */,
 				6A94410A23C36A800048F06E /* Solution11.hpp */,
 				6A94410623C1CCE50048F06E /* Solution14.cpp */,
@@ -258,6 +263,7 @@
 				6A9440DB23ADB8B20048F06E /* Solution141.cpp in Sources */,
 				6A9440DE23ADBBC00048F06E /* Solution142.cpp in Sources */,
 				6A4875E8238AB91C00EA0245 /* Solution26.cpp in Sources */,
+				6A40C12C24D9832A008D0BD5 /* Solution1202.cpp in Sources */,
 				6A4875EB238D425B00EA0245 /* Solution29.cpp in Sources */,
 				6A48760A239FB97C00EA0245 /* Solution56.cpp in Sources */,
 				6A9440E723AE4C890048F06E /* Solution94.cpp in Sources */,
