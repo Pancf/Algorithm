@@ -10,6 +10,7 @@
 		6A09EF80253C3ADE0001B56A /* Solution41.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A09EF7E253C3ADE0001B56A /* Solution41.cpp */; };
 		6A09EF84253C7CDA0001B56A /* Solution53.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A09EF82253C7CDA0001B56A /* Solution53.cpp */; };
 		6A0E40B72537567400A1F798 /* Solution33.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E40B52537567400A1F798 /* Solution33.cpp */; };
+		6A35AD01254548320019CDB3 /* Solution50.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A35ACFF254548320019CDB3 /* Solution50.cpp */; };
 		6A40C12C24D9832A008D0BD5 /* Solution1202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A40C12A24D98329008D0BD5 /* Solution1202.cpp */; };
 		6A4875DD238A050C00EA0245 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A4875DC238A050C00EA0245 /* main.cpp */; };
 		6A4875E5238A951900EA0245 /* Solution4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A4875E3238A951900EA0245 /* Solution4.cpp */; };
@@ -68,6 +69,8 @@
 		6A09EF83253C7CDA0001B56A /* Solution53.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution53.hpp; sourceTree = "<group>"; };
 		6A0E40B52537567400A1F798 /* Solution33.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution33.cpp; sourceTree = "<group>"; };
 		6A0E40B62537567400A1F798 /* Solution33.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution33.hpp; sourceTree = "<group>"; };
+		6A35ACFF254548320019CDB3 /* Solution50.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution50.cpp; sourceTree = "<group>"; };
+		6A35AD00254548320019CDB3 /* Solution50.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution50.hpp; sourceTree = "<group>"; };
 		6A40C12A24D98329008D0BD5 /* Solution1202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1202.cpp; sourceTree = "<group>"; };
 		6A40C12B24D9832A008D0BD5 /* Solution1202.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1202.hpp; sourceTree = "<group>"; };
 		6A4875D9238A050C00EA0245 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4875DC238A050C00EA0245 /* main.cpp */,
+				6A35ACFF254548320019CDB3 /* Solution50.cpp */,
+				6A35AD00254548320019CDB3 /* Solution50.hpp */,
 				6A09EF82253C7CDA0001B56A /* Solution53.cpp */,
 				6A09EF83253C7CDA0001B56A /* Solution53.hpp */,
 				6A09EF7E253C3ADE0001B56A /* Solution41.cpp */,
@@ -341,6 +346,7 @@
 				6A9440F323B4E9070048F06E /* Solution98.cpp in Sources */,
 				6A887FF724DC3D4A008B8F70 /* Solution55.cpp in Sources */,
 				6A4875E5238A951900EA0245 /* Solution4.cpp in Sources */,
+				6A35AD01254548320019CDB3 /* Solution50.cpp in Sources */,
 				6A9440DB23ADB8B20048F06E /* Solution141.cpp in Sources */,
 				6A96408624DEB76F004A6CC8 /* Solution20.cpp in Sources */,
 				6A9041082532D1450062B8F6 /* Solution15.cpp in Sources */,
@@ -472,6 +478,7 @@
 		6A4875E1238A050C00EA0245 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KCBHR9YCB;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -482,6 +489,7 @@
 		6A4875E2238A050C00EA0245 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KCBHR9YCB;
 				ENABLE_HARDENED_RUNTIME = YES;
