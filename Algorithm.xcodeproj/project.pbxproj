@@ -53,6 +53,7 @@
 		6A96408624DEB76F004A6CC8 /* Solution20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A96408424DEB76F004A6CC8 /* Solution20.cpp */; };
 		6A96408924DFB631004A6CC8 /* Solution1298.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A96408724DFB631004A6CC8 /* Solution1298.cpp */; };
 		6AB7D36A254E9CEE00915975 /* Solution54.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AB7D368254E9CEE00915975 /* Solution54.cpp */; };
+		6AB7D36E254EAAE900915975 /* Solution66.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AB7D36C254EAAE900915975 /* Solution66.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,6 +161,8 @@
 		6A96408824DFB631004A6CC8 /* Solution1298.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1298.hpp; sourceTree = "<group>"; };
 		6AB7D368254E9CEE00915975 /* Solution54.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution54.cpp; sourceTree = "<group>"; };
 		6AB7D369254E9CEE00915975 /* Solution54.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution54.hpp; sourceTree = "<group>"; };
+		6AB7D36C254EAAE900915975 /* Solution66.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution66.cpp; sourceTree = "<group>"; };
+		6AB7D36D254EAAE900915975 /* Solution66.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution66.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4875DC238A050C00EA0245 /* main.cpp */,
+				6AB7D36C254EAAE900915975 /* Solution66.cpp */,
+				6AB7D36D254EAAE900915975 /* Solution66.hpp */,
 				6AB7D368254E9CEE00915975 /* Solution54.cpp */,
 				6AB7D369254E9CEE00915975 /* Solution54.hpp */,
 				6A910825254E883400E9FA48 /* Solution42.cpp */,
@@ -365,6 +370,7 @@
 				6A48760D239FC0C500EA0245 /* Solution10.cpp in Sources */,
 				6A9440F623B85B8B0048F06E /* Solution101.cpp in Sources */,
 				6A94410823C1CCE50048F06E /* Solution14.cpp in Sources */,
+				6AB7D36E254EAAE900915975 /* Solution66.cpp in Sources */,
 				6A4875DD238A050C00EA0245 /* main.cpp in Sources */,
 				6A09EF84253C7CDA0001B56A /* Solution53.cpp in Sources */,
 				6A487607239E5DAE00EA0245 /* Solution22.cpp in Sources */,
