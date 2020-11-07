@@ -12,7 +12,7 @@ std::vector<std::vector<int>> Solution78::subsets(std::vector<int> &nums)
 {
     std::vector<std::vector<int>> res{{}};
     if (nums.size() == 0) return res;
-    int count = pow(2, nums.size());
+    int count = 1 << nums.size();
     for (int i = 1; i < count; ++i) {
         // 001 -> 111
         int index = 0, tmp = i;
