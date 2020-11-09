@@ -62,6 +62,7 @@
 		6AB7D37A254EB92F00915975 /* Solution73.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AB7D378254EB92F00915975 /* Solution73.cpp */; };
 		6AB7D37E254EBCFC00915975 /* Solution75.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AB7D37C254EBCFC00915975 /* Solution75.cpp */; };
 		6AC1FED22557D4DE001DD517 /* Solution84.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC1FED02557D4DE001DD517 /* Solution84.cpp */; };
+		6AC1FED6255838FD001DD517 /* Solution88.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC1FED4255838FD001DD517 /* Solution88.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -187,6 +188,8 @@
 		6AB7D37D254EBCFC00915975 /* Solution75.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution75.hpp; sourceTree = "<group>"; };
 		6AC1FED02557D4DE001DD517 /* Solution84.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution84.cpp; sourceTree = "<group>"; };
 		6AC1FED12557D4DE001DD517 /* Solution84.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution84.hpp; sourceTree = "<group>"; };
+		6AC1FED4255838FD001DD517 /* Solution88.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution88.cpp; sourceTree = "<group>"; };
+		6AC1FED5255838FD001DD517 /* Solution88.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution88.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4875DC238A050C00EA0245 /* main.cpp */,
+				6AC1FED4255838FD001DD517 /* Solution88.cpp */,
+				6AC1FED5255838FD001DD517 /* Solution88.hpp */,
 				6AC1FED02557D4DE001DD517 /* Solution84.cpp */,
 				6AC1FED12557D4DE001DD517 /* Solution84.hpp */,
 				6A838D1D2556D2170067788D /* Solution79.cpp */,
@@ -409,6 +414,7 @@
 				6A838D1B2556A0270067788D /* Solution78.cpp in Sources */,
 				6A494DAA253AD83700B8D30A /* Solution38.cpp in Sources */,
 				6A48760D239FC0C500EA0245 /* Solution10.cpp in Sources */,
+				6AC1FED6255838FD001DD517 /* Solution88.cpp in Sources */,
 				6A9440F623B85B8B0048F06E /* Solution101.cpp in Sources */,
 				6AB7D37E254EBCFC00915975 /* Solution75.cpp in Sources */,
 				6AB7D37A254EB92F00915975 /* Solution73.cpp in Sources */,
