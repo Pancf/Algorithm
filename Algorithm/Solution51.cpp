@@ -43,6 +43,9 @@ static void solve(std::vector<std::vector<std::string>> &res, std::vector<std::s
 std::vector<std::vector<std::string>> Solution51::solveNQueens(int n)
 {
     std::vector<std::vector<std::string>> res;
+    // we can also use vector<int> representing the placed cols, (i, v[i]) is the point where we place the queue in row i
+    // if use such representation, judging the diagonal in isSafe become easier, because if in the same diagonal, abs(slope)==1
+    // why I doesn't use such representation? because I'm lazy
     std::vector<std::string> board(n, std::string(n, '.'));
     solve(res, board, n, 0);
     return res;

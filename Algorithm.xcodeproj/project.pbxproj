@@ -12,6 +12,7 @@
 		6A0E40B72537567400A1F798 /* Solution33.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E40B52537567400A1F798 /* Solution33.cpp */; };
 		6A1EB247256106590068529C /* Solution103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EB245256106590068529C /* Solution103.cpp */; };
 		6A1EB24B25610C4A0068529C /* Solution51.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EB24925610C4A0068529C /* Solution51.cpp */; };
+		6A1EB24F25611AB40068529C /* Solution52.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EB24D25611AB40068529C /* Solution52.cpp */; };
 		6A35AD01254548320019CDB3 /* Solution50.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A35ACFF254548320019CDB3 /* Solution50.cpp */; };
 		6A35AD05254558380019CDB3 /* Solution48.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A35AD03254558380019CDB3 /* Solution48.cpp */; };
 		6A35AD09254566D60019CDB3 /* Solution49.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A35AD07254566D60019CDB3 /* Solution49.cpp */; };
@@ -91,6 +92,8 @@
 		6A1EB246256106590068529C /* Solution103.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution103.hpp; sourceTree = "<group>"; };
 		6A1EB24925610C4A0068529C /* Solution51.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution51.cpp; sourceTree = "<group>"; };
 		6A1EB24A25610C4A0068529C /* Solution51.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution51.hpp; sourceTree = "<group>"; };
+		6A1EB24D25611AB40068529C /* Solution52.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution52.cpp; sourceTree = "<group>"; };
+		6A1EB24E25611AB40068529C /* Solution52.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution52.hpp; sourceTree = "<group>"; };
 		6A35ACFF254548320019CDB3 /* Solution50.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution50.cpp; sourceTree = "<group>"; };
 		6A35AD00254548320019CDB3 /* Solution50.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution50.hpp; sourceTree = "<group>"; };
 		6A35AD03254558380019CDB3 /* Solution48.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution48.cpp; sourceTree = "<group>"; };
@@ -232,6 +235,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4875DC238A050C00EA0245 /* main.cpp */,
+				6A1EB24D25611AB40068529C /* Solution52.cpp */,
+				6A1EB24E25611AB40068529C /* Solution52.hpp */,
 				6A1EB24925610C4A0068529C /* Solution51.cpp */,
 				6A1EB24A25610C4A0068529C /* Solution51.hpp */,
 				6A1EB245256106590068529C /* Solution103.cpp */,
@@ -424,6 +429,7 @@
 				6A9440F923B8612D0048F06E /* Solution2.cpp in Sources */,
 				6A1EB24B25610C4A0068529C /* Solution51.cpp in Sources */,
 				6A94410B23C36A800048F06E /* Solution11.cpp in Sources */,
+				6A1EB24F25611AB40068529C /* Solution52.cpp in Sources */,
 				6A494DA4253AB0DB00B8D30A /* Solution34.cpp in Sources */,
 				6A9440E123AE327F0048F06E /* Solution160.cpp in Sources */,
 				6A9440E423AE475E0048F06E /* Solution144.cpp in Sources */,
