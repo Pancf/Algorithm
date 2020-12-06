@@ -7,9 +7,9 @@
 //
 
 #include <iostream>
-#include "Solution105.hpp"
+#include "Solution108.hpp"
 
 int main(int argc, const char * argv[]) {
-    Solution105::test();
+    Solution108::test();
     return 0;
 }
