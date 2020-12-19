@@ -7,15 +7,9 @@
 //
 
 #include <iostream>
-#include "Solution208.hpp"
+#include "Solution127.hpp"
 
 int main(int argc, const char * argv[]) {
-    Trie trie;
-    trie.insert("apple");
-    assert(trie.search("apple") == true);   // returns true
-    assert(trie.search("app") == false);     // returns false
-    assert(trie.startsWith("app") == true); // returns true
-    trie.insert("app");
-    assert(trie.search("app") == true);
+    Solution127::test();
     return 0;
 }
