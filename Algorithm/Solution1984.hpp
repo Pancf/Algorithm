@@ -18,7 +18,8 @@ using std::vector;
 class Solution1984 {
 public:
   int minimumDifference(vector<int>& nums, int k);
-  static void test() {
+  static void test()
+  {
     vector<int> nums1{90};
     vector<int> nums2{9,4,1,7};
     Solution1984 s;

@@ -83,6 +83,7 @@
 		6AC1FEDA255980DA001DD517 /* Solution91.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC1FED8255980DA001DD517 /* Solution91.cpp */; };
 		6ADB68A6258DE7EA0096BB8A /* Solution208.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB68A4258DE7EA0096BB8A /* Solution208.cpp */; };
 		E7CFCDC43052571E00C0E214 /* Solution1984.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CFCDC33052571E00C0E214 /* Solution1984.cpp */; };
+		E7CFCDC73053952200C0E214 /* Solution561.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CFCDC63053952200C0E214 /* Solution561.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -250,6 +251,8 @@
 		6ADB68A5258DE7EA0096BB8A /* Solution208.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution208.hpp; sourceTree = "<group>"; };
 		E7CFCDC23052571E00C0E214 /* Solution1984.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1984.hpp; sourceTree = "<group>"; };
 		E7CFCDC33052571E00C0E214 /* Solution1984.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1984.cpp; sourceTree = "<group>"; };
+		E7CFCDC53053952200C0E214 /* Solution561.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution561.hpp; sourceTree = "<group>"; };
+		E7CFCDC63053952200C0E214 /* Solution561.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution561.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +293,8 @@
 				6A5837EC25A16C1100ADBF92 /* Solution136.cpp */,
 				6A5837ED25A16C1100ADBF92 /* Solution136.hpp */,
 				6AA7DA1A258F4C30001C0A8E /* Solution130.cpp */,
+				E7CFCDC53053952200C0E214 /* Solution561.hpp */,
+				E7CFCDC63053952200C0E214 /* Solution561.cpp */,
 				6AA7DA1B258F4C30001C0A8E /* Solution130.hpp */,
 				6AA7DA16258E615F001C0A8E /* Solution128.cpp */,
 				6AA7DA17258E615F001C0A8E /* Solution128.hpp */,
@@ -507,6 +512,7 @@
 				6A494DA7253AC10D00B8D30A /* Solution36.cpp in Sources */,
 				6A5837EE25A16C1200ADBF92 /* Solution136.cpp in Sources */,
 				6A9440FF23C18AC30048F06E /* Solution6.cpp in Sources */,
+				E7CFCDC73053952200C0E214 /* Solution561.cpp in Sources */,
 				6A9440F023B0E7B00048F06E /* Solution5.cpp in Sources */,
 				6A4875EE23968F4600EA0245 /* Solution17.cpp in Sources */,
 				6A96408924DFB631004A6CC8 /* Solution1298.cpp in Sources */,
