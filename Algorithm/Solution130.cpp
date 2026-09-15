@@ -8,17 +8,17 @@
 
 #include "Solution130.hpp"
 
-static void BFS(vector<vector<char>>& board, vector<vector<int>>& visited, int x, int y)
+static void DFS(vector<vector<char>>& board, vector<vector<int>>& visited, int x, int y)
 {
   // out of bound
   if (x < 0 || x >= board.size()) return;
   if (y < 0 || y >= board[0].size()) return;
   if (board[x][y] == 'X' || visited[x][y] == 1) return;
   if (board[x][y] == 'O') visited[x][y] = 1;
-  BFS(board, visited, x - 1, y); // left
-  BFS(board, visited, x, y - 1); // top
-  BFS(board, visited, x + 1, y); // right
-  BFS(board, visited, x, y + 1); // bottom
+  DFS(board, visited, x - 1, y); // left
+  DFS(board, visited, x, y - 1); // top
+  DFS(board, visited, x + 1, y); // right
+  DFS(board, visited, x, y + 1); // bottom
 }
 
 void Solution130::solve(vector<vector<char>> &board)
@@ -33,22 +33,22 @@ void Solution130::solve(vector<vector<char>> &board)
   for (; j < col; ++j) {
     if (board[0][j] == 'O' && visited[0][j] == 0) {
       // collect path
-      BFS(board, visited, 0, j);
+      DFS(board, visited, 0, j);
     }
   }
   for (; i < row; ++i) {
     if (board[i][col - 1] == 'O' && visited[i][col - 1] == 0) {
-      BFS(board, visited, i, static_cast<int>(col) - 1);
+      DFS(board, visited, i, static_cast<int>(col) - 1);
     }
   }
   for (j = 0; j < col; ++j) {
     if (board[row - 1][j] == 'O' && visited[row - 1][j] == 0) {
-      BFS(board, visited, static_cast<int>(row) - 1, j);
+      DFS(board, visited, static_cast<int>(row) - 1, j);
     }
   }
   for (i = 0; i < row; ++i) {
     if (board[i][0] == 'O' && visited[i][0] == 0) {
-      BFS(board, visited, i, 0);
+      DFS(board, visited, i, 0);
     }
   }
   for (i = 0; i < row; ++i) {
